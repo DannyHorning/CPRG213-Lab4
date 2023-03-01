@@ -1,0 +1,94 @@
+.two-equal-boxes{
+    display: flex;
+    background-color: rgb(173, 216, 230);
+}
+
+.two-equal-boxes div{
+    height: 50px;
+    background-color: rgb(128, 128, 128);
+    width: 50%;
+    margin: 10px;
+}
+
+#two-equal-boxes-left{
+    margin-right: 0px;
+}
+
+.three-equal-boxes{
+    display: flex;
+    background-color: rgb(173, 216, 230);
+}
+
+.three-equal-boxes div{
+    height: 50px;
+    background-color: rgb(128, 128, 128);
+    width:33%;
+    margin: 15px;
+
+}
+
+#three-equal-boxes-left{
+    margin-right: 0px;
+}
+
+#three-equal-boxes-right{
+    margin-left: 0px;
+}
+
+.three-unequal-boxes{
+    display:flex;
+    background-color: rgb(173, 216, 230);
+}
+
+.three-unequal-boxes div{
+    height: 50px;
+    background-color: rgb(128, 128, 128);
+    width:25%;
+    margin: 12px;
+    border: 2px solid black;
+}
+
+#three-unequal-boxes-left{
+    width: 50%;
+    margin-right: 0px;
+}
+
+#three-unequal-boxes-right{
+    margin-left: 0px;
+}
+
+.four-equal-boxes{
+    display:flex;
+    background: rgb(173, 216, 230);
+}
+
+.four-equal-boxes div{
+    height: 50px;
+    background-color: rgb(128, 128, 128);
+    width: 25%;
+    margin: 12px;
+    margin-bottom: 0px;
+    border: 2px solid black;
+}
+
+#four-equal-boxes-B{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#four-equal-boxes-C{
+    margin-right: 0px;
+}
+
+.footer{
+    display: flex;
+    background: rgb(173, 216, 230);
+    margin-top: 0px;
+}
+.footer div{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(128, 128, 128);
+    margin: 12px;
+    border: 2px solid black;
+}
